@@ -22,7 +22,7 @@ public class Tablero extends Application{
         //Layout - Forma como se distribuyen los objetos en la escena
         Pane pane = new Pane();
         //Canvas - Tablero de dibujo
-        Canvas canvas = new Canvas(300, 300);
+        Canvas canvas = new Canvas(1024, 512);
         pane.getChildren().add(canvas);
         Scene scene = new Scene(pane, canvas.getWidth(), canvas.getHeight(), Color.CRIMSON);
         GraphicsContext gc = canvas.getGraphicsContext2D();
